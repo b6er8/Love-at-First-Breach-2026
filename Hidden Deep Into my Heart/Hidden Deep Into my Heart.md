@@ -3,33 +3,33 @@
 
 ![alt text](site.png)
 
-Not much to go off of, so lets do some clasic enumration !
+Not much to go off of, so lets do some classic enumeration !
 
-- Cheack robots.txt and sitemap.xml
+- Check robots.txt and sitemap.xml
 
-- Run nmap and gobuster in the meen time
+- Run nmap and gobuster in the meantime
 
 ---
 
 ![alt text](robots.txt.png)
 
-*well take note of this for now*
+*we'll take note of this for now*
 
 ---
 
-gobuster is sitll running but nmap is done, only thing worth menthontiong is :
+gobuster is still running but nmap is done, only thing worth mentioning is :
 
 ![alt text](<hidden dir.png>)
 
-(Run Nmap with the defult scripts if you dont get the same results)
+(Run Nmap with the default scripts if you don't get the same results)
 
 ![alt text](<getting close.png>)
 
-oooh so wer making some progress !
+oooh so we're making some progress !
 
 ---
 
-Gobuster is still going for longer then it should so lets repoit it towards the new dir we found
+Gobuster is still going for longer than it should so lets repoint it towards the new dir we found
 
 ![alt text](<even closer.png>)
 
@@ -37,4 +37,4 @@ what do we have here !
 
 ---
 
-Iv been trying to bruteforce this page for wayyyy to long then i sould have, then i rembered the robots.txt for erlier !, use it as a passwordm, the the username admin and you sould get the flag !.
+I've been trying to bruteforce this page for wayyyy too long than I should have, then I remembered the robots.txt from earlier! Use it as a password, with the username admin and you should get the flag !
